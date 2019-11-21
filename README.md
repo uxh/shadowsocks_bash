@@ -1,9 +1,21 @@
-## shadowsocks_bash Usage
+## rm
 
-### 简体中文
+### 说明
 
-`wget --no-check-certificate -O shadowsocks-libev_CN.sh https://raw.githubusercontent.com/uxh/shadowsocks_bash/master/shadowsocks-libev_CN.sh && bash shadowsocks-libev_CN.sh`
+由于不可抗力因素，本项目被移除，默认分支已由 master 分支更改为 rm 分支。
 
-### English
+如需查看历史内容，请切换到 master 分支。
 
-`wget --no-check-certificate -O shadowsocks-libev.sh https://raw.githubusercontent.com/uxh/shadowsocks_bash/master/shadowsocks-libev.sh && bash shadowsocks-libev.sh`
+### 推荐浏览
+
+1. 搬瓦工中文网（<a href="https://www.banwagongzw.com" target="_blank">https://www.banwagongzw.com</a>）
+
+2. Vultr 中文网（<a href="https://www.vultrcn.com" target="_blank">https://www.vultrcn.com</a>）
+
+### 加入我们
+
+1. 微信公众号：搬瓦工
+
+2. 搬瓦工电报群：（<a href="https://t.me/BandwagonHostChat" target="_blank">@BandwagonHostChat</a>）
+
+3. Vultr 电报群：（<a href="https://t.me/VultrChat" target="_blank">@VultrChat</a>）
