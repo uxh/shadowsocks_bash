@@ -345,7 +345,7 @@ function install_libsodium() {
     rm -rf ${libsodiumver} ${libsodiumver}.tar.gz
 }
 
-#nstall mbedtls
+#Install mbedtls
 function install_mbedtls() {
     cd ${currentdir}
     if [ ! -f /usr/lib/libmbedtls.a ]; then
@@ -492,10 +492,10 @@ function install_success() {
 
     cat > /root/shadowsocks.txt << EOF
 ===============================================
-服务器地址  : $(get_ipv4)
-服务端口    : ${ssport}
-连接密码    : ${sspassword}
-加密方式    : ${sscipher}
+Server IP        : $(get_ipv4)
+Server Port      : ${ssport}
+Password         : ${sspassword}
+Encryption Method: ${sscipher}
 -----------------------------------------------
 ss://${ssurl}
 ===============================================
