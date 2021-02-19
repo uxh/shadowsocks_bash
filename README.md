@@ -2,8 +2,8 @@
 
 ### 简体中文
 
-`bash <(curl -sL https://raw.githubusercontent.com/uxh/shadowsocks_bash/master/shadowsocks-libev_CN.sh)`
+`bash <(curl -sL https://git.io/coolsscn)`
 
 ### English
 
-`bash <(curl -sL https://raw.githubusercontent.com/uxh/shadowsocks_bash/master/shadowsocks-libev.sh)`
+`bash <(curl -sL https://git.io/coolss)`
