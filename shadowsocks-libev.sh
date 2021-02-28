@@ -501,6 +501,10 @@ ss://${ssurl}
 ===============================================
 EOF
     echo -e "You can find the config's backup in /root/shadowsocks.txt."
+    echo -e "Windows Client：https://github.com/shadowsocks/shadowsocks-windows/releases"
+    echo -e "macOS Client：https://github.com/shadowsocks/ShadowsocksX-NG/releases"
+    echo -e "Android Client：https://github.com/shadowsocks/shadowsocks-android/releases"
+    echo -e "iPhone/iPad Client：App Store install shadowrocket"
     echo -e ""
     echo -e "For more tutorials: https://www.banwagongzw.com & https://www.vultrcn.com"
 }
