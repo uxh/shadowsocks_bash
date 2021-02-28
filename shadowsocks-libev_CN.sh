@@ -501,6 +501,10 @@ ss://${ssurl}
 ===============================================
 EOF
     echo -e "配置信息已备份在 /root/shadowsocks.txt 文件内"
+    echo -e "Windows客户端：https://github.com/shadowsocks/shadowsocks-windows/releases"
+    echo -e "macOS客户端：https://github.com/shadowsocks/ShadowsocksX-NG/releases"
+    echo -e "Android客户端：https://github.com/shadowsocks/shadowsocks-android/releases"
+    echo -e "iPhone/iPad客户端：App Store非国区下载shadowrocket"
     echo -e ""
     echo -e "更多教程请看：https://www.banwagongzw.com & https://www.vultrcn.com"
 }
