@@ -2,8 +2,8 @@
 
 ### 简体中文
 
-`bash <(curl -sL https://git.io/coolsscn)`
+`bash <(curl -sL git.io/coolsscn)`
 
 ### English
 
-`bash <(curl -sL https://git.io/coolss)`
+`bash <(curl -sL git.io/coolss)`
