@@ -263,14 +263,14 @@ function install_dependencies() {
         if [[ ${epelstatus} != "True" ]]; then
             yum-config-manager --enable epel
         fi
-        yum install -y unzip openssl openssl-devel gettext gcc autoconf libtool automake make asciidoc xmlto libev-devel pcre pcre-devel git c-ares-devel
+        yum install -y unzip openssl openssl-devel gettext gcc autoconf libtool automake make asciidoc xmlto libev-devel pcre pcre-devel git c-ares-devel wget
         if [ $? -ne 0 ]; then
             echo -e "${red}[错误]${plain} 依赖安装失败，请稍后重试！"
             exit 1
         fi
     else
         apt-get update
-        apt-get install --no-install-recommends -y gettext build-essential autoconf automake libtool openssl libssl-dev zlib1g-dev libpcre3-dev libev-dev libc-ares-dev
+        apt-get install --no-install-recommends -y gettext build-essential autoconf automake libtool openssl libssl-dev zlib1g-dev libpcre3-dev libev-dev libc-ares-dev wget
         if [ $? -ne 0 ]; then
             echo -e "${red}[错误]${plain} 依赖安装失败，请稍后重试！"
             exit 1
