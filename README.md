@@ -35,7 +35,7 @@ bash shadowsocks-libev.sh
 1. Windows：https://filedown.me/Shadowsocks/Client/Shadowsocks-windows/
 2. macOS：https://filedown.me/Shadowsocks/Client/Shadowsocks-macos/
 3. Android：https://filedown.me/Shadowsocks/Client/Shadowsocks-android/
-4. iOS：非国区 App Store 下载安装 Shadowrocket（没有账号的可以联系 https://t.me/biangbiangmian 获取）
+4. iOS：非国区 App Store 下载安装 Shadowrocket（没有账号的可以前往 https://free.shadowrocket.online 获取）
 
 #### Clash客户端
 
