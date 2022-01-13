@@ -597,6 +597,8 @@ if [ $EUID -eq 0 ]; then
         echo "----------------------------------------------"
         echo " 7. Shadowsocks Config Status                 "
         echo " 8. Shadowsocks Config Modify                 "
+        echo "----------------------------------------------"
+        echo " 0. Exit                                      "
         echo "=============================================="
 
         check_shadowsocks_status
@@ -618,11 +620,14 @@ if [ $EUID -eq 0 ]; then
         do
             echo ""
             read -p "Please Enter the Number:" choice
-            [[ -z ${choice} ]] && choice="0"
+            [[ -z ${choice} ]] && choice="100"
             expr ${choice} + 1 > /dev/null 2>&1
             if [ $? -eq 0 ]; then
-                if [ ${choice} -ge 1 ] && [ ${choice} -le 8 ]; then
-                    if [ "${choice}" == "1" ]; then
+                if [ ${choice} -ge 0 ] && [ ${choice} -le 8 ]; then
+                    if [ "${choice}" == "0" ]; then
+                        echo ""
+                        exit
+                    elif [ "${choice}" == "1" ]; then
                         install_main
                     elif [ "${choice}" == "2" ]; then
                         uninstall_main
@@ -641,10 +646,10 @@ if [ $EUID -eq 0 ]; then
                     fi
                     break
                 else
-                    echo -e "${red}[Error]${plain}  Please enter a number between 1 and 8!"
+                    echo -e "${red}[Error]${plain}  Please enter a number between 0 and 8!"
                 fi
             else
-                echo -e "${red}[Error]${plain}  Please enter a number between 1 and 8!"
+                echo -e "${red}[Error]${plain}  Please enter a number between 0 and 8!"
             fi
         done
     else
