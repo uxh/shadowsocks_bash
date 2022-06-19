@@ -29,8 +29,8 @@ rc4-md5
 #Version and url
 libsodiumver="libsodium-1.0.18"
 libsodiumurl="https://github.com/jedisct1/libsodium/releases/download/1.0.18-RELEASE/libsodium-1.0.18.tar.gz"
-mbedtlsver="mbedtls-2.16.6"
-mbedtlsurl="https://tls.mbed.org/download/mbedtls-2.16.6-gpl.tgz"
+mbedtlsver="mbedtls-2.16.12"
+mbedtlsurl="https://github.com/Mbed-TLS/mbedtls/archive/refs/tags/v2.16.12.tar.gz"
 shadowsocksver="shadowsocks-libev-3.3.5"
 shadowsocksurl="https://github.com/shadowsocks/shadowsocks-libev/releases/download/v3.3.5/shadowsocks-libev-3.3.5.tar.gz"
 initscripturl="https://raw.githubusercontent.com/uxh/shadowsocks_bash/master/shadowsocks-libev"
